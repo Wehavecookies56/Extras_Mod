@@ -24,7 +24,7 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid = "Extras", name = "Extras", version = "0.0.2")
+@Mod(modid = "Extras", name = "Extras", version = "0.0.2.1")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 
 
@@ -39,7 +39,6 @@ public class Extras_Main {
 	public static Block DiamondFence;
 	public static Block EmeraldFence;
 	public static Block GoldFence;
-	public static Block IronFence;
 	
 	// Declare Items
 	public static Item BedrockStick;
@@ -54,7 +53,6 @@ public class Extras_Main {
 	public int DiamondFenceID;
 	public int EmeraldFenceID;
 	public int GoldFenceID;
-	public int IronFenceID;
 	
 	// Declare Stick ID's
 	public int BedrockStickID;
@@ -81,7 +79,6 @@ public class Extras_Main {
 		DiamondFenceID = config.getBlock("DiamondFence", 3466).getInt();		
 		EmeraldFenceID = config.getBlock("EmeraldFence", 3467).getInt();
 		GoldFenceID = config.getBlock("GoldFence", 3468).getInt();
-		IronFenceID = config.getBlock("IronFence", 3469).getInt();
 		
 		// Set Stick config ID's
 		BedrockStickID = config.getItem("BedrockStick", 26200).getInt();
@@ -106,7 +103,6 @@ public class Extras_Main {
 		DiamondFence = new BlockFence(DiamondFenceID, "blockDiamond", Material.iron).setUnlocalizedName("blockDiamond").setCreativeTab(ExtrasTab).setHardness(5.0F).setResistance(10.0F);
 		EmeraldFence = new BlockFence(EmeraldFenceID, "blockEmerald", Material.iron).setUnlocalizedName("blockEmerald").setCreativeTab(ExtrasTab).setHardness(5.0F).setResistance(10.0F);
 		GoldFence = new BlockFence(GoldFenceID, "blockGold", Material.iron).setUnlocalizedName("blockGold").setCreativeTab(ExtrasTab).setHardness(3.0F).setResistance(10.0F);
-		IronFence = new BlockFence(IronFenceID, "blockIron", Material.iron).setUnlocalizedName("blockIron").setCreativeTab(ExtrasTab).setHardness(5.0F).setResistance(10.0F);
 		
 		// Declaration of Sticks
 		BedrockStick = new Item(BedrockStickID).setFull3D().setUnlocalizedName("BedrockStick").setCreativeTab(ExtrasTab);
@@ -120,7 +116,7 @@ public class Extras_Main {
 		GameRegistry.registerBlock(DiamondFence, "DiamondFence");
 		GameRegistry.registerBlock(EmeraldFence, "EmeraldFence");
 		GameRegistry.registerBlock(GoldFence, "GoldFence");
-		GameRegistry.registerBlock(IronFence, "IronFence");
+
 		
 		// Game registry for Sticks
 		GameRegistry.registerItem(BedrockStick, "BedrockStick");
@@ -187,13 +183,6 @@ public class Extras_Main {
 			'G', Item.ingotGold,
 		});
 		
-		//Iron Fence
-		GameRegistry.addRecipe(new ItemStack(IronFence, 2), new Object[]{
-			 "III",
-			 "III",
-			 'I', IronStick,
-		});
-		
 		// Iron Stick
 		GameRegistry.addRecipe(new ItemStack(IronStick, 4), new Object[]{
 			"I",
@@ -210,7 +199,6 @@ public class Extras_Main {
 		LanguageRegistry.addName(DiamondFence, "Diamond Fence");
 		LanguageRegistry.addName(EmeraldFence, "Emerald Fence");
 		LanguageRegistry.addName(GoldFence, "Gold Fence");
-		LanguageRegistry.addName(IronFence, "Iron Fence");
 		
 		// Language registry for Sticks
 		LanguageRegistry.addName(BedrockStick, "Bedrock Stick");

@@ -1,0 +1,10 @@
+ChangeLog
+
+V0.0.1
+Added 5 types of fences(Iron, Gold, Diamond, Emerald and Bedrock)
+
+V0.0.2
+Added 5 types of stick(Iron, Gold, Diamond, Emerald and Bedrock)
+
+V0.0.2.1
+Removed Iron fences as they are in Vanilla Minecraft

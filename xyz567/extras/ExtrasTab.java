@@ -20,7 +20,7 @@ public class ExtrasTab extends CreativeTabs {
 	    public int getTabIconItemIndex()
 	    {
 		   // The item shown on tab
-	        return Extras_Main.IronFence.blockID;
+	        return Extras_Main.DiamondFence.blockID;
 	    }
 	   
 	   public String getTranslatedTabLabel(){

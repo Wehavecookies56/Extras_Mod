@@ -25,7 +25,7 @@ public class ExtrasTab extends CreativeTabs {
 	   
 	   public String getTranslatedTabLabel(){
 		   // Name shown when hovered over
-		   return "Extras tab";
+		   return "Extras";
 	   }
 	
 }

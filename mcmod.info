@@ -1,0 +1,20 @@
+[
+{
+  "modid": "Extras",
+  "name": "Extras",
+  "description": "Adds extra items including fences, sticks and stairs",
+  "version": "0.0.2",
+  "url": "N/A",
+  "updateUrl": "",
+  "authorList": [
+    "xyz567"
+  ],
+  "credits": "xyz567",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

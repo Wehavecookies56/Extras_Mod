@@ -5,9 +5,9 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ExtrasTab extends CreativeTabs {
+public class ExtrasFencesTab extends CreativeTabs {
 
-	public ExtrasTab(int par1, String par2Str) {
+	public ExtrasFencesTab(int par1, String par2Str) {
 		super(par1, par2Str);
 		// TODO Auto-generated constructor stub
 	}
@@ -25,7 +25,7 @@ public class ExtrasTab extends CreativeTabs {
 	   
 	   public String getTranslatedTabLabel(){
 		   // Name shown when hovered over
-		   return "Extras";
+		   return "Extras Fences";
 	   }
 	
 }

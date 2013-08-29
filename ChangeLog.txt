@@ -5,6 +5,7 @@ Added 5 types of fences(Iron, Gold, Diamond, Emerald and Bedrock)
 
 V0.0.2
 Added 5 types of stick(Iron, Gold, Diamond, Emerald and Bedrock)
+Added crafting recipes
 
 V0.0.2.1
 Removed Iron fences as they are in Vanilla Minecraft
@@ -13,3 +14,9 @@ V0.0.2.2
 ReAdded Iron Fence as they are not actually in Vanilla xD
 Made dedicated creative tab for fences
 Made dedicated creative tab for materials
+
+V0.0.3
+Added 4 new fences
+Added 5 new sticks
+Added crafting recipes
+Added easter egg
